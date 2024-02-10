@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin-left: 5%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.logo{
+width: 20%;
+
+}
+
+nav{
+
+
+}
+
+header nav ul{
+    display: flex ;
+    list-style: none;
+    justify-content: end;
+
+}
+
+header nav ul li{
+margin-left: 50px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #626262; 
+  text-transform: uppercase; 
+}
+
+.banner{
+    width: 90%;
+margin-left: 5%;
+
+}
+
+.banner img{
+    width: 100%;
+}
